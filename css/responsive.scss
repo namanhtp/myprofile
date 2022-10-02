@@ -1,0 +1,341 @@
+@media (max-width: 1200px){
+    .profile{
+
+
+        &_container{
+            margin-left: 0;
+        }
+
+        &_color{
+            right: -15.7%;
+
+        }
+
+        &_img{
+            height: 240px;
+        }
+
+        &_color--talk{
+            right: -15.7% !important;
+        }
+
+        &_blog-img{
+            height: unset;
+        }
+
+        
+    }
+
+    .swiper-slide{
+        width: 60% !important;
+    }
+
+    .project{
+        &_blog-wrapper{
+            padding: 0 2rem;
+        }
+
+        &_blog-item{
+            max-width: 48%;
+        }
+    }
+
+    .logo{
+
+
+        &_container{
+            padding: 3rem;
+        }
+    }
+
+    
+}
+
+@media (max-width: 992px) {
+    .profile{
+
+
+        &_container{
+            margin-left: 0;
+            padding: 40px 20px;
+        }
+
+        &_color{
+            right: -19%;
+
+        }
+
+        &_img{
+            height: 240px;
+        }
+    }
+
+    .swiper-slide{
+        width: 60% !important;
+    }
+
+    .project{
+        &_blog-wrapper{
+            padding: 0 2rem;
+        }
+
+        &_blog-item{
+            max-width: 48%;
+        }
+
+        &_feature{
+            max-width: 945px;
+        }
+
+        &_feature-list{
+            flex-wrap: wrap;
+            padding: 0 2rem;
+            padding-bottom: 2rem;
+
+            span{
+                margin-bottom: 0;
+            }
+        }
+
+        &_blog--overlay{
+            height: 46.4%;
+
+            a{
+                display: inline-block;
+                position: absolute;
+                top: -12%;
+                left: 37%;
+            }
+        }
+    }
+
+    .logo{
+
+
+        &_container{
+            padding: 3rem;
+        }
+    }
+
+    .overview{
+
+
+        &_list{
+            padding-right: 3rem;
+        }
+    }
+
+    .proof{
+
+        &_logo-link{
+            width: 8rem;
+        }
+    }
+
+    .talk{
+        padding: 0 2rem;
+
+        &_item-item{
+            flex-direction: column;
+        }
+
+        &_item-desc{
+            max-width: unset ;
+        }
+    }
+
+    .embed-responsive-item{
+        width: 100%;
+        transform: unset;
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header{
+
+        &_list--menu{
+            display: none;
+        }
+
+        &_bar-icon{
+            display: block !important;
+        }
+    }
+
+    .profile {
+
+        &_color{
+            display: none !important;
+
+        }
+
+        &_container p{
+            max-width: 422px;
+        }
+    }
+
+    .overview {
+
+        &_desc{
+            max-width: 692px;
+        }
+
+        &_wrapper{
+            display: flex;
+            gap: 2rem;
+            flex-direction: column;
+            width: 100%;
+            padding: 0 3rem;
+        }
+    }
+
+    .proof {
+
+        &_logo-wrapper{
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+            margin-left: 5rem;
+
+            a{
+                width: 9rem;
+            }
+        }
+    }
+
+    .project {
+
+        &_feature-wrapper{
+            flex-direction: column;
+            padding: 3rem;
+
+        }
+
+        &_feature-item{
+            width: 100% !important;
+            margin-bottom: 3rem;
+        }
+
+        &_feature-overlay, &_feature-hiden{
+            height: 100%;
+        }
+    
+
+        &_blog-wrapper{
+            flex-direction: column;
+        }
+
+        &_blog-item{
+            max-width: 100%;
+        }
+
+        &_blog--overlay{
+            height: 64.9%;
+        }
+
+        &_blog-overlay--btn{
+            top: 13% !important;
+            left: 43%!important;
+        }
+    }
+
+    .logo{
+
+        &_list{
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr;
+        }
+
+        &_item{
+            width: unset;
+        }
+    }
+
+    .footer{
+
+        &_desc{
+            max-width: 666px;
+        }
+    }
+}
+
+@media (max-width: 460px) {
+    .profile{
+
+        &_container{
+            gap: 7px;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+
+        &_btn{
+            width: 100%;
+        }
+
+        &_content p a{
+            display: inline-block;
+        }
+    }
+
+    .overview{
+
+        &_wrapper{
+            padding: 0 1rem;
+        }
+    } 
+
+    .proof{
+
+        &_logo-wrapper{
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: 1fr 1fr 1fr;
+            margin-left: unset;
+        }
+
+        &_logo-wrapper a{
+            width: 11rem;
+        }
+    }
+
+    .project{
+
+        &_feature-wrapper{
+            padding: 0 1rem;
+        }
+
+        &_blog-wrapper{
+            padding: 0px 1rem;
+        }
+
+        &_blog--overlay{
+            height: 44.9%;
+        }
+
+        &_blog-overlay--btn{
+            top: -13% !important;
+            left: 38% !important;
+        }
+    }
+
+    .logo{
+
+        &_container{
+            padding: 1rem;
+        }
+    }
+
+    .footer{
+        padding: 3rem 0.5rem;
+    }
+
+
+
+
+}
+
+.swiper-slide{
+    width: 100% !important;
+}

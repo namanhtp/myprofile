@@ -1,0 +1,152 @@
+@media (max-width: 1200px){
+        .profile{
+            &_color{
+                right: -15.7%;
+            }
+
+            &_container{
+                margin-left: 0 !important;
+            }
+    }
+}
+
+@media (max-width: 992px) {
+    .profile{
+
+        &_color{
+            right: -19%;
+        }
+    }
+
+    .project{
+
+        &_blog-img-wrapper{
+            width: 60%;
+        }
+
+        &_blog-img{
+            min-height: unset;
+        }
+
+        &_blog-item--content{
+            width: 40%;
+            padding-bottom: 2rem; 
+            max-width: unset;
+        }
+
+        &_feature-btn{
+            margin-bottom: unset;
+        }
+    }
+
+    .blog{
+
+        &_item-mid{
+            min-height: 244px !important;
+        }
+        &_item-bot{
+            padding: 0.5rem !important ;
+
+        }
+    }
+}
+
+
+@media (max-width: 800px) {
+    .header {
+
+        &_list--menu{
+            display: none;
+        }
+
+        &_bar-icon{
+            display: block !important;
+        }
+    }
+
+    .profile {
+
+        &_color{
+            right: -23.6%;
+        }
+    }
+
+    .blog{
+
+        &_item{
+            max-width: calc((100% - 2rem) / 2) !important;
+        }
+    }
+
+    .footer{
+        padding: 3rem 2rem;
+    }
+}
+
+@media (max-width: 460px) {
+    .profile{
+
+        &_color{
+            display: none;
+        }
+
+        &_container{
+            text-align: center;
+            padding: 3rem 1.5rem;
+            flex-direction: column;
+        }
+
+        &_blog-img{
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        &_blog-list{
+            justify-content: center;
+        }
+    }
+
+    .project{
+        padding: 3rem 1rem;
+
+        &_blog-item{
+            flex-direction: column;
+        }
+
+        &_blog-img-wrapper{
+            width: unset;
+        }
+
+        &_blog-item--content{
+            width: unset;
+        }
+
+        .blog{
+
+            &_item{
+                max-width: 100% !important;
+            }
+        }
+    }
+
+    .contact{
+        padding: 1rem;
+
+        &_infor{
+            padding: 1rem !important;
+            padding-bottom: 2rem !important;
+        }
+    }
+
+    .form {
+
+        &_wrapper{
+            flex-direction: column;
+            gap: 0;
+        }
+    }
+
+
+
+}
+
